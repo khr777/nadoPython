@@ -64,7 +64,14 @@
 |DNS|53|Domain Name System - 주소창에 입력한 도메인을 IP주소로 변경|TCP/UDP|
 |HTTP|80|HyperText Transfer Protocol - 웹 페이지 전송, 웹 서비스|TCP/UDP|
 |IMAP4|143|우리가 흔히 쓰는 이메일 (저장소 관리가 중요)|TCP|
-|HTTPS|443|SSL 위의 HTTP(인증서를 사용하여 보안접속, 암호화 전송)|TCP|
+|HTTPS|443|SSL(Secure Socket Layer) 위의 HTTP(인증서를 사용하여 보안접속, 암호화 전송)|TCP|
+- https를 통한 인터넷 접속은, 브라우저를 실행 중인 우리 컴퓨터(또는 휴대폰)가 해당 사이트의 서버와 암호화 통신을 하고 있다는 의미이다.
+
+[SSL 참고 링크 1](https://blog.naver.com/skinfosec2000/222135874222)
+
+[SSL 참고 링크 2](https://jins-dev.tistory.com/entry/SSL-%EC%9D%B4%EB%9E%80-SSL-%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC)
+
+
 
 <br>
 <br>

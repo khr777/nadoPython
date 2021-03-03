@@ -10,7 +10,7 @@
 # 방법 1
 # strUrl = "http://kakao.com"   kak50!
 # strUrl = "http://google.com"  goo61!      
-strUrl = "http://naver.com"     # nav51!
+strUrl = "http://daum.net"     # nav51!
 domain = strUrl[7:] # naver.com
 index = domain.index(".") # 5
 hint = domain[:index] # naver
@@ -20,7 +20,7 @@ pw3 = hint.count("e")
 print(f"생성된 비밀번호 : {pw1}{pw2}{pw3}!")
 
 # 방법 2
-url = "http://naver.com"
+url = "http://daum.net"
 my_str = url.replace("http://", "")  # 규칙 1
 my_str = my_str[:my_str.index(".")] # 규칙 2
 password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
