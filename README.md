@@ -87,6 +87,7 @@
 |MySQL|-|
 |RDS|Relational Database Service|
 |ALB|서버 부하 분산|
+|인스턴스|간단하게 말해서 가상 컴퓨터 1대|
 
 <br>
 <br>
