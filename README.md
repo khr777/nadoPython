@@ -107,6 +107,9 @@
 
 [아마존 웹 서비스를 다루는 기술:실무에서 필요한 AWS 클라우드의 모든것!__책 무료 공개](http://pyrasis.com/book/TheArtOfAmazonWebServices)
 
+[DB서버 구축 참고 링크](https://victorydntmd.tistory.com/337)
+
+[RDS 설치 참고 링크](https://smujihoon.tistory.com/85)
 
 
 <br>
