@@ -120,6 +120,8 @@
 <br>
 
 > Windows에서 Linux 인스턴스 연결을 위한 PuTTY 사용 방법
+- Connection -> SSH -> Auth -> Private key file for authentication -> .ppk 확장자 key 불러오기
+- 마지막으로 ***save***를 클릭해주어야 key를 저장해놓고 서버를 open 할 수 있다.
 
 [참고 링크 : PuTTY 접속할 때마다 private key 첨부해야하는 함. ](http://devstory.ibksplatform.com/2017/08/aws-windows-linux-putty.html)
 
@@ -157,6 +159,7 @@
 - #### 사용자에서 root로 변경
 > `sudo su`
 
+
 - #### Amazon Linux에 Java 11 설치
 OpenJDK 8은 기본 yum 리포지토리에서 사용할 수 있으며 OpenJDK 11은 Amazon Linux 2 추가 리포지토리에서 사용할 수 있습니다. 다음 명령을 사용하여 Amazon Linux 시스템에 Java 11 또는 Java 8을 간단히 설치할 수 있습니다.
 > `sudo amazon-linux-extras install java-openjdk11`
@@ -171,6 +174,34 @@ OpenJDK 8은 기본 yum 리포지토리에서 사용할 수 있으며 OpenJDK 11
 <br>
 <br>
 
+### Vi Editor 명령어
+
+> `파일의 끝(맨 밑)으로 이동할 때 : G`
+
+> `한줄 잘라내기 : dd`
+
+> `두줄 잘라내기 : 2dd`
+
+> `세줄 잘라내기 : 3dd`
+
+> `붙여넣기 : p`
+
+> `한글자 삭제 : x`
+
+> `단어 삭제 : dw`
+
+> `실행취소(뒤로가기) : u`
+
+> `문장 맨 앞으로 이동 : ^`
+
+> `문장 맨 뒤로 이동 : $`
+
+
+
+
+<br>
+<br>
+<br>
 
 
 ## 갖고놀기
