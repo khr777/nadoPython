@@ -95,6 +95,7 @@
 |RDS|Relational Database Service|
 |ALB|서버 부하 분산|
 |인스턴스|간단하게 말해서 가상 컴퓨터 1대|
+|SSH|Secure Shell Protocol, 즉 네트워크 프로토콜 중 하나로 컴퓨터와 컴퓨터가 인터넷과 같은 Public Network를 통해 서로 통신을 할 때 보안적으로 안전하게 통신을 하기 위해 사용하는 프로토콜입니다. <br>대표적인 사용의 예 : 데이터 전송, 원격 제어|
 
 <br>
 <br>
@@ -145,6 +146,32 @@
 
 <br>
 <br>
+
+### Linux 명령어 
+
+<br>
+
+- #### root에서 사용자로 변경
+> `su - ec2-user(사용자명)`
+
+- #### 사용자에서 root로 변경
+> `sudo su`
+
+- #### Amazon Linux에 Java 11 설치
+OpenJDK 8은 기본 yum 리포지토리에서 사용할 수 있으며 OpenJDK 11은 Amazon Linux 2 추가 리포지토리에서 사용할 수 있습니다. 다음 명령을 사용하여 Amazon Linux 시스템에 Java 11 또는 Java 8을 간단히 설치할 수 있습니다.
+> `sudo amazon-linux-extras install java-openjdk11`
+
+- #### Amazon Linux에 Java 8 설치
+> `sudo yum install java-1.8.0-openjdk`
+
+- #### Java version 확인
+> `java -version`
+
+<br>
+<br>
+<br>
+
+
 
 ## 갖고놀기
 
