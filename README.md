@@ -108,6 +108,23 @@
 <br>
 <br>
 
+> 포트(port)
+
+![image](https://user-images.githubusercontent.com/63379459/109893400-f296ac00-7cce-11eb-98a8-151146c5bdc2.png)
+
+- SSH 기본적으로 추가된
+- 일단 HTTP, HTTPS 추가
+
+<br>
+<br>
+
+> Windows에서 Linux 인스턴스 연결을 위한 PuTTY 사용 방법
+
+[참고 링크 : PuTTY 접속할 때마다 private key 첨부해야하는 함. ](http://devstory.ibksplatform.com/2017/08/aws-windows-linux-putty.html)
+
+<br>
+<br>
+
 [AWS 인스턴스 생성 참고 링크1.](https://itadventure.tistory.com/372)
 
 [AWS 인스턴스 생성 참고 링크2.](https://medium.com/pocs/ec2%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9B%B9-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0-5b3c84c6d54)
