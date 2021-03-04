@@ -222,7 +222,32 @@ OpenJDK 8은 기본 yum 리포지토리에서 사용할 수 있으며 OpenJDK 11
 
 > `문장 맨 뒤로 이동 : $`
 
+> `현재 커서 위치에 삽입 : i`
 
+> `현재 커서 바로 다음위치에 삽입 : a`
+
+> `현재 줄 다음 위치에 삽입 : o`
+
+> `커서의 아랫라인과 현재 라인을 하나의 라인으로 합침 : shift + j`
+
+
+
+
+
+<br>
+<br>
+
+[vi 유용한 명령어 모음집 Top](https://gom34.tistory.com/1730)
+
+[vi 명령어 참고 링크1](https://blockdmask.tistory.com/25)
+
+[vi 명령어 참고 링크2](https://wayhome25.github.io/etc/2017/03/27/vi/)
+
+[vi 명령어 참고 링크3](https://booolean.tistory.com/346)
+
+[vi 명령어 참고 링크4(연습)](https://velog.io/@sooo/TIL-14.-VIM-vim-%EB%8B%A8%EC%B6%95%ED%82%A4-%EC%A0%95%EB%A6%AC-%EC%97%B0%EC%8A%B5%EC%82%AC%EC%9D%B4%ED%8A%B8)
+
+[vi를 효과적으로 공부하는 방법 링크5](https://godsman.tistory.com/entry/%ED%88%AC%EC%97%94%ED%8F%AC%EC%97%94-vi%EB%A5%BC-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%97%B0%EC%8A%B5%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80)
 
 
 <br>
