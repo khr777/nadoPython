@@ -7,6 +7,14 @@
 ## 기술 스택 익히기
 
 - 기본적으로 : Java
+- Unix 콘솔 명령어 
+- CLI 명령어
+- 파이썬
+- django
+> 장고는 파이썬으로 작성된 오픈 소스 웹 프레임워크로, 모델-뷰-컨트롤러 패턴을 따르고 있다.
+- 웹서버 구축(Python)
+- 도스 커맨드 명령어
+- 도스 프롬프트(CLI)
 
 <br>
 <br>
@@ -128,6 +136,20 @@
 <br>
 <br>
 
+
+> **PuTTY**
+- 터미널/단말/콘솔
+
+|topic|p/g|description|
+|--|--|--|
+|기동 <br>스크립트|PuTTY|SSH 파일 전송 불가|
+|파일 <br>올릴때|winSCP|Windows 기반의 환경에서 SFTP, FTP, SSH 등의 프로토콜로 파일을 전송하는 클라이언트 프로그램|
+
+<br>
+<br>
+
+
+
 [AWS 인스턴스 생성 참고 링크1.](https://itadventure.tistory.com/372)
 
 [AWS 인스턴스 생성 참고 링크2.](https://medium.com/pocs/ec2%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9B%B9-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0-5b3c84c6d54)
@@ -141,6 +163,10 @@
 
 <br>
 <br>
+<br>
+
+### Python으로 서버 다루는 법 습득.
+
 <br>
 
 > 서버에 문제가 있을 경우 
