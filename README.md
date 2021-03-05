@@ -127,17 +127,39 @@
 <br>
 <br>
 
-> Nginx(Web Server)
+> Nginx(Web Server) 이해와 설치
+
 - Igor Sysoev라는 러시아 개발자가 ***동시접속*** 처리에 특화된 ***웹 서버*** 프로그램이다. <br>Apache보다 동작이 단순하고, *전달자* 역할만 하기 때문에 동시접속 처리에 특화되어 있다.
+- nginx는 기존 웹서버에서 많은 ***트래픽***을 감당하기 위해서 확정성을 가지고 설계된 비동기 이벤트 드라이븐 방식의 웹서버를 칭한다.
 - 프록시 서버 
 - [트래픽](./plan03.md)
+- AWS는 별도로 방화벽 비활성화 해준게 없음..
+- 인스턴스의 public ip로 웹 부라우저 접속을 하면 ***Welcome to nginx!*** 문자
+- nginx 접속 완료
+
+<br>
 
 [nginx 이해하기 및 기본 환경설정](https://whatisthenext.tistory.com/123)
 
+[AWS EC2에 NGINX 설치 및 사용하기](https://msyu1207.tistory.com/entry/AWS-EC2%EC%97%90-NGINX-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 
+[AWS EC2에 웹서버(Nginx)설치하고 구동하기__Good](https://medium.com/@taeyeolkim/aws-ec2%EC%97%90-%EC%9B%B9%EC%84%9C%EB%B2%84-nginx-%EC%84%A4%EC%B9%98%ED%95%98%EA%B3%A0-%EA%B5%AC%EB%8F%99%ED%95%98%EA%B8%B0-a46a6e9484a8)
 
 <br>
 <br>
+
+> MySQL 이해와 설치
+
+[AWS 환경에서 MySQL 설치](https://www.zinnunkebi.com/aws-mariadb-uninstall-mysql-install/)
+
+<br>
+<br>
+
+[(AWS환경)MySQL 초기설정 및 워드프레스용 DB생성](https://www.zinnunkebi.com/aws-mysql-setup-dbmake/)
+
+<br>
+<br>
+
 
 > Windows에서 Linux 인스턴스 연결을 위한 PuTTY 사용 방법
 - Connection -> SSH -> Auth -> Private key file for authentication -> .ppk 확장자 key 불러오기
