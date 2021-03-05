@@ -127,6 +127,18 @@
 <br>
 <br>
 
+> Nginx(Web Server)
+- Igor Sysoev라는 러시아 개발자가 ***동시접속*** 처리에 특화된 ***웹 서버*** 프로그램이다. <br>Apache보다 동작이 단순하고, *전달자* 역할만 하기 때문에 동시접속 처리에 특화되어 있다.
+- 프록시 서버 
+- [트래픽](./plan03.md)
+
+[nginx 이해하기 및 기본 환경설정](https://whatisthenext.tistory.com/123)
+
+
+
+<br>
+<br>
+
 > Windows에서 Linux 인스턴스 연결을 위한 PuTTY 사용 방법
 - Connection -> SSH -> Auth -> Private key file for authentication -> .ppk 확장자 key 불러오기
 - 마지막으로 ***save***를 클릭해주어야 key를 저장해놓고 서버를 open 할 수 있다.
