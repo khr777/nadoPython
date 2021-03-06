@@ -108,7 +108,7 @@
 <br>
 <br>
 
-> 인스턴스
+#### 인스턴스
 - 애플리케이션을 실행할 수 있는 가상 서버
 - CPU, Memory, 스토리지 및 네트워킹 용량의 다양한 조합이 있다.
 - 애플리케이션에 사용할 적절한 리소스 조합을 유연하게 선택할 수 있다.
@@ -117,7 +117,7 @@
 <br>
 <br>
 
-> 포트(port)
+#### 포트(port)
 
 ![image](https://user-images.githubusercontent.com/63379459/109893400-f296ac00-7cce-11eb-98a8-151146c5bdc2.png)
 
@@ -127,7 +127,7 @@
 <br>
 <br>
 
-> Nginx(Web Server) 이해와 설치
+#### Nginx(Web Server) 이해와 설치
 
 - Igor Sysoev라는 러시아 개발자가 ***동시접속*** 처리에 특화된 ***웹 서버*** 프로그램이다. <br>Apache보다 동작이 단순하고, *전달자* 역할만 하기 때문에 동시접속 처리에 특화되어 있다.
 - nginx는 기존 웹서버에서 많은 ***트래픽***을 감당하기 위해서 확정성을 가지고 설계된 비동기 이벤트 드라이븐 방식의 웹서버를 칭한다.
@@ -148,20 +148,57 @@
 <br>
 <br>
 
-> MySQL 이해와 설치
+#### AWS MySQL 이해와 설치
+
+<br>
+
+> `[mysqld] 설정 파일 : sudo vi /etc/my.cnf`
+
+<br>
+<br>
+
+##### root의 접속권한 확인
+
+> `SELECT Host,User,authentication_string FROM mysql.user;`
+
+
+1. GRANT ALL PRIVILEGES ON *.* TO root@'ip주소' IDENTIFIED BY 'password'
+2. GRANT ALL PRIVILEGES ON *.* TO root@'localhost' IDENTIFIED BY 'password'
+
+<br>
+<br>
+
+##### ※ 원격접속 허용
+
+> 원격 유저 생성
+- CREATE USER 'root'@'%' IDENTIFIED BY 'password';
+
+<br>
+
+> 권한 부여 
+##### 모든 IP 허용
+- GRANT ALL ON *.* TO root@'%' IDENTIFIED BY 'password';
+- FLUSH PRIVILEGES;
+
+<br>
+<br>
+
+[mysql 원격접속 참고 링크1](https://fishpoint.tistory.com/1406)
+[mysql 원격접속 참고 링크2](https://galid1.tistory.com/349)
+
 
 [AWS 환경에서 MySQL 설치](https://www.zinnunkebi.com/aws-mariadb-uninstall-mysql-install/)
 
-<br>
-<br>
 
 [(AWS환경)MySQL 초기설정 및 워드프레스용 DB생성](https://www.zinnunkebi.com/aws-mysql-setup-dbmake/)
 
+[(DB) ec2 mysql 설치부터 인코딩 설정하기!](https://js-almot-story.tistory.com/9)
+
 <br>
 <br>
 
 
-> Windows에서 Linux 인스턴스 연결을 위한 PuTTY 사용 방법
+#### Windows에서 Linux 인스턴스 연결을 위한 PuTTY 사용 방법
 - Connection -> SSH -> Auth -> Private key file for authentication -> .ppk 확장자 key 불러오기
 - 마지막으로 ***save***를 클릭해주어야 key를 저장해놓고 서버를 open 할 수 있다.
 
