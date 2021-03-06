@@ -183,6 +183,10 @@
 <br>
 <br>
 
+![image](https://user-images.githubusercontent.com/63379459/110192900-38d94000-7e74-11eb-88d2-0f75b97faff7.png)
+
+<br>
+
 [mysql 원격접속 참고 링크1](https://fishpoint.tistory.com/1406)
 [mysql 원격접속 참고 링크2](https://galid1.tistory.com/349)
 
