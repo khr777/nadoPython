@@ -10,6 +10,9 @@ score_file.close()
 
 
 
+
+
+
 # 파일의 모든 내용이 아닌
 # '한줄 한줄' 읽어와서 무언가를 처리하고 싶을 때
 # 파일은 역시 open()하고 close()해준다.
@@ -24,6 +27,9 @@ score_file.close()
 # -------- 방법 2 끝 ---------
 
 
+
+
+
 # 몇줄인지 모르는 파일을 읽으려 할 때
 # -------- 방법 3 시작 ---------
 score_file = open("score.txt", "r", encoding="utf8")
@@ -35,6 +41,9 @@ while True: # 무한루프
     # print(line, end="")
 score_file.close()
 # -------- 방법 3 끝 ---------
+
+
+
 
 
 
