@@ -20,15 +20,6 @@ for i in range(1, 6):
         report_file.write("부서 :")
         report_file.write("이름 :")
         report_file.write("업무 요약 : ")
-        
-
-    
-
-
-
-
-
-
 
 
 # ------------------ 풀이 끝 ------------------# 
