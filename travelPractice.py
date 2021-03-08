@@ -1,3 +1,7 @@
+# package : 모듈들을 모아놓은 집합 / 하나의 디렉터리에 여러 모듈 파일들을 갖다놓은 것을 
+    
+# 신규 여행사 프로젝트를 담당하게 된 (태국, 베트남)
+
 # travel 폴더와 함께 
 
 
@@ -20,4 +24,5 @@ trip_to2.detail()
 from travel import vietnam
 trip_to3 = vietnam.VietnamPackage() # 객체 생성
 trip_to3.detail()
+
 
