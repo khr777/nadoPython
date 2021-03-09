@@ -128,6 +128,10 @@ Amazon S3는 언제든지 웹상 어디서나 원하는 양의 데이터를 저�
 
 
 <br>
+
+[Amazon S3 참고 데이터](https://aws.amazon.com/ko/s3/faqs/)
+
+<br>
 <br>
 
 
