@@ -267,6 +267,10 @@ Amazon S3는 언제든지 웹상 어디서나 원하는 양의 데이터를 저�
 <br>
 <br>
 
+
+# Python
+<br/>
+
 ### Python으로 서버 다루는 법 습득.
 
 <br>
@@ -475,12 +479,22 @@ OpenJDK 8은 기본 yum 리포지토리에서 사용할 수 있으며 OpenJDK 11
 
 
 
+### Python 기초 지식
+#### Web Server Gateway Interface 장점
+1. 모든 OS에 종속되지 않고 독립적으로 사용하는데 전혀 문제가 없다.
+2. 호환성이 좋다. 
+
+
+#### manage.py 파일 역할
+1. 프로젝트 안에서 다른 앱을 생성할 때
+2. 서버를 동작시킬 때
+3. 프로젝트와 앱의 상호작용을 위해서
 
 
 
-
-
-
+#### db.sqlite3 를 사용하는 파이썬
+- MySQL, Oracle DBMS보다 가볍다는 장점이 있다.
+- [notion 파이썬 데이터베이스 필히 참고](https://www.notion.so/48029ea46e2b40e4abaafad1d5708dc8)
 
 
 
