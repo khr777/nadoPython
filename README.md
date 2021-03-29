@@ -485,7 +485,7 @@ OpenJDK 8은 기본 yum 리포지토리에서 사용할 수 있으며 OpenJDK 11
 2. 호환성이 좋다. 
 
 
-#### manage.py 파일 역할
+#### `manage.py` 파일 역할
 1. 프로젝트 안에서 다른 앱을 생성할 때
 2. 서버를 동작시킬 때
 3. 프로젝트와 앱의 상호작용을 위해서
@@ -497,7 +497,10 @@ OpenJDK 8은 기본 yum 리포지토리에서 사용할 수 있으며 OpenJDK 11
 - [notion 파이썬 데이터베이스 필히 참고](https://www.notion.so/48029ea46e2b40e4abaafad1d5708dc8)
 
 
-
+#### `models.py`
+- Django에서 Model은 데이터 서비스를 제공하는 Layer이다.
+- Django의 Model은 각 Django App 안에 기본적으로 생성되는 `models.py` 모듈 안에 정의하게 된다.
+- `models.py` 모듈 안에 하나 이상의 모델 클래스를 정의할 수 있으며, 하나의 모델 클래스는 데이터베이스에서 하나의 테이블에 해당된다.
 
 
 
